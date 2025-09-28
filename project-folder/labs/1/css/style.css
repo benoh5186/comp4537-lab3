@@ -1,0 +1,63 @@
+.note-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.note-part {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.add-button {
+    padding: 2px 20px;
+    border: 0.2px solid black;
+    border-radius: 5px;
+    background-color:rgb(23, 154, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.remove-button {
+    height: 10%;
+    align-self: center;
+    margin-left: 10px;
+    padding: 2px 20px;
+    border: 0.2px solid black;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(255, 157, 0);
+}
+
+/* I had to ask claude how to remove resize handle for textbox */
+.note-container {
+    resize: none;
+    height: 100px;
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 82, 196);
+}
+
+.time-area {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+
+}
+
+.ui-area {
+    margin-bottom: 100px;
+}
+
+.back-button {
+    padding: 2px 20px;
+    border: 0.2px solid black;
+    border-radius: 5px;
+    background-color:rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+
+}

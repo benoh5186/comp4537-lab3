@@ -1,0 +1,34 @@
+.the-button {
+    position: absolute;
+    height: 5em;
+    width: 50%;
+}
+
+.the-button.active {
+    cursor: pointer;
+}
+
+.buttons-area {
+position: relative;
+width: 100vw;
+height: 100vh; 
+overflow: hidden; 
+}
+
+.user-guide {
+    font-size: 12px;
+}
+
+.form-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-button-area {
+    display: inline-block;
+}
+
+.number-input {
+    width: 30px;
+}

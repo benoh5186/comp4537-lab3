@@ -1,0 +1,30 @@
+
+.page-buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.page-button {
+    width: 200px;
+    height: 75px;
+    padding: 10px 20px;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+
+}
+.writer-button {
+    background-color: aqua;
+    
+
+}
+
+.reader-button {
+    background-color: aquamarine;
+}
+
+.title {
+    text-align: center;
+}
