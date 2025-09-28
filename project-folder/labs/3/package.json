@@ -1,0 +1,16 @@
+{
+    "name": "comp4537-lab3",
+    "version": "1.0.0",
+    "description": "Lab 3 Node.js server without Express",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "build": "echo 'No build step required'"
+    },
+    "engines": {
+      "node": ">=18.0.0"
+    },
+    "keywords": ["nodejs", "server", "api"],
+    "author": "Your Name",
+    "license": "MIT"
+  }
